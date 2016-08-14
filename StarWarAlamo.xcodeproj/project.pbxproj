@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ACD211E1E8347A416886873 /* Pods_StarWarAlamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9A6E26D2FCDCA7B2C78805 /* Pods_StarWarAlamo.framework */; };
 		5276AE811D6108AA0077F010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276AE801D6108AA0077F010 /* AppDelegate.swift */; };
 		5276AE831D6108AA0077F010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276AE821D6108AA0077F010 /* ViewController.swift */; };
 		5276AE861D6108AA0077F010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5276AE841D6108AA0077F010 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AD6F6768A28CAE6014D2764 /* Pods-StarWarAlamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarAlamo.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarAlamo/Pods-StarWarAlamo.release.xcconfig"; sourceTree = "<group>"; };
 		5276AE7D1D6108AA0077F010 /* StarWarAlamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarAlamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5276AE801D6108AA0077F010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5276AE821D6108AA0077F010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		5276AE871D6108AA0077F010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5276AE8A1D6108AA0077F010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5276AE8C1D6108AA0077F010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEDE0D65F5EB05590B58DE3 /* Pods-StarWarAlamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarAlamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarAlamo/Pods-StarWarAlamo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9A6E26D2FCDCA7B2C78805 /* Pods_StarWarAlamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarAlamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACD211E1E8347A416886873 /* Pods_StarWarAlamo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				5276AE7F1D6108AA0077F010 /* StarWarAlamo */,
 				5276AE7E1D6108AA0077F010 /* Products */,
+				52F17DE5A5EB9B508B28C534 /* Pods */,
+				5FE1376A62B61C2D328BBF3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = StarWarAlamo;
 			sourceTree = "<group>";
 		};
+		52F17DE5A5EB9B508B28C534 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDE0D65F5EB05590B58DE3 /* Pods-StarWarAlamo.debug.xcconfig */,
+				3AD6F6768A28CAE6014D2764 /* Pods-StarWarAlamo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FE1376A62B61C2D328BBF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9A6E26D2FCDCA7B2C78805 /* Pods_StarWarAlamo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5276AE8F1D6108AA0077F010 /* Build configuration list for PBXNativeTarget "StarWarAlamo" */;
 			buildPhases = (
+				2E2406613BB9ACA431571169 /* [CP] Check Pods Manifest.lock */,
 				5276AE791D6108AA0077F010 /* Sources */,
 				5276AE7A1D6108AA0077F010 /* Frameworks */,
 				5276AE7B1D6108AA0077F010 /* Resources */,
+				51EFF5B6C4D9E32DAE5E9242 /* [CP] Embed Pods Frameworks */,
+				ADBEC170A2A684E5372ADBAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E2406613BB9ACA431571169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51EFF5B6C4D9E32DAE5E9242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarAlamo/Pods-StarWarAlamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBEC170A2A684E5372ADBAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarAlamo/Pods-StarWarAlamo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5276AE791D6108AA0077F010 /* Sources */ = {
@@ -249,6 +324,7 @@
 		};
 		5276AE901D6108AA0077F010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEDE0D65F5EB05590B58DE3 /* Pods-StarWarAlamo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarWarAlamo/Info.plist;
@@ -260,6 +336,7 @@
 		};
 		5276AE911D6108AA0077F010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD6F6768A28CAE6014D2764 /* Pods-StarWarAlamo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StarWarAlamo/Info.plist;
@@ -288,6 +365,7 @@
 				5276AE911D6108AA0077F010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
