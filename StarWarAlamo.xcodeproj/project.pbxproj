@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5276AE811D6108AA0077F010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276AE801D6108AA0077F010 /* AppDelegate.swift */; };
+		5276AE831D6108AA0077F010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276AE821D6108AA0077F010 /* ViewController.swift */; };
+		5276AE861D6108AA0077F010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5276AE841D6108AA0077F010 /* Main.storyboard */; };
+		5276AE881D6108AA0077F010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5276AE871D6108AA0077F010 /* Assets.xcassets */; };
+		5276AE8B1D6108AA0077F010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5276AE891D6108AA0077F010 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5276AE7D1D6108AA0077F010 /* StarWarAlamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarAlamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5276AE801D6108AA0077F010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5276AE821D6108AA0077F010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5276AE851D6108AA0077F010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5276AE871D6108AA0077F010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5276AE8A1D6108AA0077F010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5276AE8C1D6108AA0077F010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5276AE7A1D6108AA0077F010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5276AE741D6108AA0077F010 = {
+			isa = PBXGroup;
+			children = (
+				5276AE7F1D6108AA0077F010 /* StarWarAlamo */,
+				5276AE7E1D6108AA0077F010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5276AE7E1D6108AA0077F010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5276AE7D1D6108AA0077F010 /* StarWarAlamo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5276AE7F1D6108AA0077F010 /* StarWarAlamo */ = {
+			isa = PBXGroup;
+			children = (
+				5276AE801D6108AA0077F010 /* AppDelegate.swift */,
+				5276AE821D6108AA0077F010 /* ViewController.swift */,
+				5276AE841D6108AA0077F010 /* Main.storyboard */,
+				5276AE871D6108AA0077F010 /* Assets.xcassets */,
+				5276AE891D6108AA0077F010 /* LaunchScreen.storyboard */,
+				5276AE8C1D6108AA0077F010 /* Info.plist */,
+			);
+			path = StarWarAlamo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5276AE7C1D6108AA0077F010 /* StarWarAlamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5276AE8F1D6108AA0077F010 /* Build configuration list for PBXNativeTarget "StarWarAlamo" */;
+			buildPhases = (
+				5276AE791D6108AA0077F010 /* Sources */,
+				5276AE7A1D6108AA0077F010 /* Frameworks */,
+				5276AE7B1D6108AA0077F010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarAlamo;
+			productName = StarWarAlamo;
+			productReference = 5276AE7D1D6108AA0077F010 /* StarWarAlamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5276AE751D6108AA0077F010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WigglingScholars;
+				TargetAttributes = {
+					5276AE7C1D6108AA0077F010 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5276AE781D6108AA0077F010 /* Build configuration list for PBXProject "StarWarAlamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5276AE741D6108AA0077F010;
+			productRefGroup = 5276AE7E1D6108AA0077F010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5276AE7C1D6108AA0077F010 /* StarWarAlamo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5276AE7B1D6108AA0077F010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276AE8B1D6108AA0077F010 /* LaunchScreen.storyboard in Resources */,
+				5276AE881D6108AA0077F010 /* Assets.xcassets in Resources */,
+				5276AE861D6108AA0077F010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5276AE791D6108AA0077F010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276AE831D6108AA0077F010 /* ViewController.swift in Sources */,
+				5276AE811D6108AA0077F010 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5276AE841D6108AA0077F010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5276AE851D6108AA0077F010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5276AE891D6108AA0077F010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5276AE8A1D6108AA0077F010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5276AE8D1D6108AA0077F010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5276AE8E1D6108AA0077F010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5276AE901D6108AA0077F010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWarAlamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wigglingScholars.StarWarAlamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5276AE911D6108AA0077F010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWarAlamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wigglingScholars.StarWarAlamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5276AE781D6108AA0077F010 /* Build configuration list for PBXProject "StarWarAlamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276AE8D1D6108AA0077F010 /* Debug */,
+				5276AE8E1D6108AA0077F010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5276AE8F1D6108AA0077F010 /* Build configuration list for PBXNativeTarget "StarWarAlamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276AE901D6108AA0077F010 /* Debug */,
+				5276AE911D6108AA0077F010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5276AE751D6108AA0077F010 /* Project object */;
+}
